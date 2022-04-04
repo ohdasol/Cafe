@@ -301,7 +301,7 @@ public class CoffeeOrderController extends HttpServlet {
 				
 			}
 			
-		}catch(Exception s){
+		}catch(Exception s) {
 			request.setAttribute("errorMsg", s.getMessage());
 			s.printStackTrace();
 		}		
